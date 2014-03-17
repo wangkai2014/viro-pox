@@ -250,6 +250,7 @@ def openflow_queue_prop (queue_prop_type, type_val):
     return c
   return f
 
+
 _action_type_to_class = {}
 _action_class_to_types = {} # Do we need this?
 ofp_action_type_rev_map = {}
